@@ -25,7 +25,7 @@
 
 
 .nav-menu__link 
-    color: #000
+    color: $black
     text-decoration: none
     position: relative
 
@@ -34,7 +34,7 @@
     &:hover,
     &:active,
     &-active 
-        color: #E51937
+        color: $red
 
 
     &:visited::after,
@@ -42,7 +42,7 @@
     &:active::after,
     &-active::after 
         content: ""
-        color: #E51937
+        color: $red
         background: url(../img/underline.png) no-repeat
         background-size: cover
         height: 2px
@@ -61,7 +61,7 @@
 
 
     &__link 
-        color: #000
+        color: $black
         text-decoration: none
         position: relative
 
@@ -69,14 +69,14 @@
     &__link:visited,
     &__link:hover,
     &__link:active 
-        color: #E51937
+        color: $red
 
 
         &:visited::after,
         &:hover::after,
         &:active::after 
             content: ""
-            color: #E51937
+            color: $red
             background: url(../img/underline.png) no-repeat
             background-size: cover
             height: 2px
