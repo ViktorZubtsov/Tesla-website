@@ -1,0 +1,86 @@
+// 1.head
+    
+    
+    
+.head 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 58px
+    padding: 24px 58px 0 43px
+
+
+.logo 
+    background: url(../img/Tesla-Wordmark-Red.png)
+    height: 51px
+    width: 166px
+
+
+.nav-menu 
+    font: normal 600 15px "MontserratFont"
+    width: 489px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+
+.nav-menu__link 
+    color: #000
+    text-decoration: none
+    position: relative
+
+
+    &:visited,
+    &:hover,
+    &:active,
+    &-active 
+        color: #E51937
+
+
+    &:visited::after,
+    &:hover::after,
+    &:active::after,
+    &-active::after 
+        content: ""
+        color: #E51937
+        background: url(../img/underline.png) no-repeat
+        background-size: cover
+        height: 2px
+        width: 100%
+        position: absolute
+        left: 0
+        top: 25px
+
+
+.side-menu 
+    font: normal 600 15px "MontserratFont"
+    width: 204px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+
+    &__link 
+        color: #000
+        text-decoration: none
+        position: relative
+
+
+    &__link:visited,
+    &__link:hover,
+    &__link:active 
+        color: #E51937
+
+
+        &:visited::after,
+        &:hover::after,
+        &:active::after 
+            content: ""
+            color: #E51937
+            background: url(../img/underline.png) no-repeat
+            background-size: cover
+            height: 2px
+            width: 100%
+            position: absolute
+            left: 0
+            top: 25px
