@@ -1,6 +1,65 @@
-.subtitle {
-    color: #000;
-    font: normal 500 15px/18px "Montserrat";
-    text-align: center;
-    height: 15px;
-}
+@media (min-width: 1025px) and (max-width: 1353px) {
+    .advantages-buttons {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 63px;
+    }
+    
+    .advantages-discover {
+     margin-bottom: 15px;
+    }
+   
+    .security-content {
+     background: #E51937;
+     padding: 49px 16px 0 30px;
+    }
+   
+    .security-info {
+     margin-bottom: 55px;
+     padding: 0;
+    }
+   
+    .security-pictures {
+     background-size: auto 12%;
+    }
+   
+    .security-button {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;	
+     margin-right: 16px;	 
+    }
+   
+    .security-button__discover {
+      margin-bottom: 14px;
+    }
+   
+    .rating {
+     padding: 0;
+    }
+   
+    .stars {
+     padding-right: 0;
+    }
+   
+    .rating-result {
+     margin-right: 14px;
+    }
+   
+    .rating-result__icon {
+     margin-right: 0;
+    }
+   
+    .rating-result__value {
+     font: normal 600 48px/59px "Montserrat";
+    }
+   
+    .footer {
+     position: absolute;
+     top: 94.5%;
+     left: 85%;
+    }
+   }
