@@ -211,7 +211,7 @@ gulp.task('compress-sass', function () {
 });
  
 gulp.task('build-image', function () {
-  return gulp.src('./src/img/*.png', './src/img/*.svg', './src/img/*.jpg')
+  return gulp.src(['./src/img/*.png', './src/img/*.svg', './src/img/*.jpg'])
     .pipe(image())
     .pipe(debug({title: 'build-image'}))
     .pipe(gulp.dest('./build/img'));
