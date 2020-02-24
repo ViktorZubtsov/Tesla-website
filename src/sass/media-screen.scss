@@ -4,732 +4,1006 @@
 
 @media (min-width: 1025px) and (max-width: 1353px) {
     .advantages-buttons {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 63px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 63px;
     }
-    
+
     .advantages-discover {
-     margin-bottom: 15px;
+        margin-bottom: 15px;
     }
-   
+
     .security-content {
-     background: #E51937;
-     padding: 49px 16px 0 30px;
+        background: #E51937;
+        padding: 49px 16px 0 30px;
     }
-   
+
     .security-info {
-     margin-bottom: 55px;
-     padding: 0;
+        margin-bottom: 55px;
+        padding: 0;
     }
-   
+
     .security-pictures {
-     background-size: auto 12%;
+        background-size: auto 12%;
     }
-   
+
     .security-button {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     align-items: center;	
-     margin-right: 16px;	 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 16px;
     }
-   
+
     .security-button__discover {
-      margin-bottom: 14px;
+        margin-bottom: 14px;
     }
-   
+
     .rating {
-     padding: 0;
+        padding: 0;
     }
-   
+
     .stars {
-     padding-right: 0;
+        padding-right: 0;
     }
-   
+
     .rating-result {
-     margin-right: 14px;
+        margin-right: 14px;
     }
-   
+
     .rating-result__icon {
-     margin-right: 0;
+        margin-right: 0;
     }
-   
+
     .rating-result__value {
-     font: normal 600 48px/59px "Montserrat";
+        font: normal 600 48px/59px "Montserrat";
     }
-   
-    .footer {
-     position: absolute;
-     top: 94.5%;
-     left: 85%;
-    }
-   }
 
-   @media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        position: absolute;
+        top: 94.5%;
+        left: 85%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .welcome-page {
-     height: 100%;
+        height: 100%;
     }
-   
+
     .head {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 80px;
-     padding: 24px 33px 0 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+        padding: 24px 33px 0 14px;
     }
-   
+
     .logo {
-     background: url(../img/Tesla-Wordmark-Red.png);
-     height: 51px;
-     width: 166px;
+        background: url(../img/Tesla-Wordmark-Red.png);
+        height: 51px;
+        width: 166px;
     }
-    
+
     .nav-menu,
     .side-menu__link {
-     display: none;
+        display: none;
     }
-    
+
     .side-menu {
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
-   
+
     .side-menu__burger {
-     height: 22px;
-     width: 36px;
+        height: 22px;
+        width: 36px;
     }
-   
+
     .welcome-page__wordmark {
-     background: url(../img/Tesla-Wordmark.png) no-repeat center top;
-     background-size:  auto 82%;
-     text-align: center;
-     width: 100%;
-     position: relative;
-     bottom: 35px;
-     margin-bottom: 108px;
+        background: url(../img/Tesla-Wordmark.png) no-repeat center top;
+        background-size: auto 82%;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        bottom: 35px;
+        margin-bottom: 108px;
     }
-   
+
     .welcome-page__tesla_png_img {
-     position: relative;
-     top: 110px;
-     width: 92%;
+        position: relative;
+        top: 110px;
+        width: 92%;
     }
-   
+
     .welcome-page-content {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 58px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 58px;
     }
-   
+
     .feature {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 55px;
-     margin-right: 0;
-     width: 63%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 55px;
+        margin-right: 0;
+        width: 63%;
     }
-    
+
     .params {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: auto;
-     margin-right: 21px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        margin-right: 21px;
     }
-    
+
     .speedo-icon {
-     height: 50px;
-     width: 66px;
-     margin-right: 20px;
+        height: 50px;
+        width: 66px;
+        margin-right: 20px;
     }
-    
+
     .road_icon {
-     height: 72px;
-     width: 44px;
-     margin-right: 15px;
-     position: relative;
-     top: 3px;
+        height: 72px;
+        width: 44px;
+        margin-right: 15px;
+        position: relative;
+        top: 3px;
     }
-   
+
     .params-value {
-     padding-bottom: 9px;
+        padding-bottom: 9px;
     }
-    
+
     .params__time,
     .params__reserve {
-     font: normal 600 50px/61px "Montserrat";
-     margin: 0;
+        font: normal 600 50px/61px "Montserrat";
+        margin: 0;
     }
-    
+
     .params__time-units,
     .params__reserve-value {
-     position: relative;
-     left: 9px;
-     bottom: 6px;
+        position: relative;
+        left: 9px;
+        bottom: 6px;
     }
-    
+
     .content-button {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: 54%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 54%;
     }
-    
+
     .test-drive {
-     font: normal bold 16px/20px "Montserrat";
-     background: none;
-     border: none;
-     color: #E51937;
-     text-transform: uppercase;
-     display: flex;
-     align-items: center;
-     margin-right: 0;
-     padding: 0;
+        font: normal bold 16px/20px "Montserrat";
+        background: none;
+        border: none;
+        color: #E51937;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        padding: 0;
     }
-    
+
     .test-drive:before {
-     content: "";
-     background: url(../img/test-drive-red.svg) no-repeat;
-     background-size: contain;
-     height: 30px;
-     width: 30px;
-     margin-bottom: 5px;
-     margin-right: 16px;
+        content: "";
+        background: url(../img/test-drive-red.svg) no-repeat;
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+        margin-bottom: 5px;
+        margin-right: 16px;
     }
-    
+
     .welcome-page__order {
-     font: normal bold 16px/20px "Montserrat";
-     background: #E51937;
-     border: solid 2px #E51937;
-     box-sizing: border-box;
-     color: #FFF;
-     height: 55px;
-     width: 221px;
-     text-transform: uppercase;
-     padding: 0;
+        font: normal bold 16px/20px "Montserrat";
+        background: #E51937;
+        border: solid 2px #E51937;
+        box-sizing: border-box;
+        color: #FFF;
+        height: 55px;
+        width: 221px;
+        text-transform: uppercase;
+        padding: 0;
     }
-    
+
     .scroll-down-icon {
-      margin: 0 47% 26px;
-      height: 20px;
-      width: 34px;
-     }
-   
+        margin: 0 47% 26px;
+        height: 20px;
+        width: 34px;
+    }
+
     .advantages {
-     display: grid;
-     grid-template-columns: 100%;
-     grid-template-rows: 52% 48%;
-     min-height: 1024px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 52% 48%;
+        min-height: 1024px;
     }
-    
+
     .advantages-head {
-     background: url(../img/models-dashboar-ipad.png) no-repeat 50% 40%;
-     background-size: cover;
+        background: url(../img/models-dashboar-ipad.png) no-repeat 50% 40%;
+        background-size: cover;
     }
-    
+
     .advantages-head__title {
-     padding: 41px 47px 0 0;
-     text-align: right;
-     margin: 0;
+        padding: 41px 47px 0 0;
+        text-align: right;
+        margin: 0;
     }
-    
+
     .advantages-content {
-     display: grid;
-     grid-template-columns: 61.5% 38.5%;
-     grid-template-rows: 24% 24% 24% 28%;
-     background: #E51937;
-     padding: 56px 48px 50px 33px;
+        display: grid;
+        grid-template-columns: 61.5% 38.5%;
+        grid-template-rows: 24% 24% 24% 28%;
+        background: #E51937;
+        padding: 56px 48px 50px 33px;
     }
-    
+
     .advantages-info {
-     margin-bottom: 0;
-     margin-right: 90px;
-     padding: 0;
-     display: block;
-     grid-column: 1 / 2;
-     grid-row: 1 / 4;
+        margin-bottom: 0;
+        margin-right: 90px;
+        padding: 0;
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
     }
-    
+
     .advantages-info__title {
-     margin: 0 0 21px;
+        margin: 0 0 21px;
     }
-   
+
     .display {
-     display: flex;
-     justify-content: flex-start;
-     margin: 0;
-     padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .display-content {
-     position: relative;
-     bottom: 0px;
+        position: relative;
+        bottom: 0px;
     }
-    
+
     .display__icon {
-     position: relative;
-     top: 10px;
-    } 
-    
+        position: relative;
+        top: 10px;
+    }
+
     .wireless-soft {
-     margin: 0;
-     align-self: start;
-     position: relative;
-     bottom: 3px;
-     right: 6px;
+        margin: 0;
+        align-self: start;
+        position: relative;
+        bottom: 3px;
+        right: 6px;
     }
-   
+
     .wireless-soft-content {
-     max-width: 173px;
+        max-width: 173px;
     }
-    
+
     .wireless-soft__icon {
-     margin-right: 20px;
-     margin-bottom: 8px;
+        margin-right: 20px;
+        margin-bottom: 8px;
     }
-    
+
     .bag-capacity {
-     margin-bottom: 0;
-     padding-left: 0;
-     position: relative;
-     bottom: 6px;
+        margin-bottom: 0;
+        padding-left: 0;
+        position: relative;
+        bottom: 6px;
     }
-    
+
     .bag-capacity__icon {
-     margin-right: 23px;
-     position: relative;
-     top: 12px;
-     right: 2px;
+        margin-right: 23px;
+        position: relative;
+        top: 12px;
+        right: 2px;
     }
-    
+
     .advantages-buttons {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 0;
-     grid-column: 1 / 3;
-     grid-row: 4 / 5;
-     align-self: end;
-     justify-self: center;
-     margin-bottom: 4px;
-     width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        align-self: end;
+        justify-self: center;
+        margin-bottom: 4px;
+        width: 100%;
     }
-    
+
     .advantages-discover {
-     font: normal bold 16px/20px "Montserrat";
-     margin-right: 58px;
-     position: relative;
-     left: 10px;
+        font: normal bold 16px/20px "Montserrat";
+        margin-right: 58px;
+        position: relative;
+        left: 10px;
     }
-    
+
     .advantages-discover:before {
-     height: 31px;
-     width: 31px;
-     margin-right: 11px;
+        height: 31px;
+        width: 31px;
+        margin-right: 11px;
     }
-    
+
     .advantages__order {
-     font: normal bold 16px/20px "Montserrat";
-     border: solid 3px #FFF;
-     height: 55px;
-     width: 221px; 
-     margin: 0;
-     padding: 0;
+        font: normal bold 16px/20px "Montserrat";
+        border: solid 3px #FFF;
+        height: 55px;
+        width: 221px;
+        margin: 0;
+        padding: 0;
     }
-   
+
     .security {
-     display: grid;
-     grid-template-columns: 100%;
-     grid-template-rows: 52.5% 47.5%;
-     min-height: 1025px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 52.5% 47.5%;
+        min-height: 1025px;
     }
-    
+
     .security-content {
-     background: #E51937;
-     padding: 60px 34px 0 34px;
-     grid-row: 2 / 3;
-     display: grid;
-     grid-template-columns: 55.5% 44.5%; 
-     grid-template-rows: 71% 29%;
+        background: #E51937;
+        padding: 60px 34px 0 34px;
+        grid-row: 2 / 3;
+        display: grid;
+        grid-template-columns: 55.5% 44.5%;
+        grid-template-rows: 71% 29%;
     }
-    
+
     .security-info {
-     margin-bottom: 0;
-     padding: 0;
+        margin-bottom: 0;
+        padding: 0;
     }
-    
+
     .security-info__head {
-     margin: 0 0 12px;
-     padding-right: 20px;
+        margin: 0 0 12px;
+        padding-right: 20px;
     }
-    
+
     .security-info__text {
-     padding-right: 60px;
+        padding-right: 60px;
     }
-    
+
     .rating {
-     margin-bottom: 0;
-     padding: 0;
+        margin-bottom: 0;
+        padding: 0;
     }
-    
+
     .rating__title {
-     margin: 0 0 28px;
+        margin: 0 0 28px;
     }
-    
+
     .rating-category__text {
-     margin: 0 0 16px;
+        margin: 0 0 16px;
     }
-   
+
     .rating-category__text-add {
-     position: relative;
-     left: 2px;
+        position: relative;
+        left: 2px;
     }
-    
+
     .stars {
-     padding-right: 18px;
+        padding-right: 18px;
     }
-    
+
     .rating-result {
-     display: none;
+        display: none;
     }
-    
+
     .security-button {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 0;
-     margin-right: 0;
-     grid-column: 1 / 3;
-     justify-self: center;
-     align-self: start;
-     width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        margin-right: 0;
+        grid-column: 1 / 3;
+        justify-self: center;
+        align-self: start;
+        width: 100%;
     }
-    
+
     .security-button__discover {
-     font: normal bold 16px/20px "Montserrat";
-     margin-right: 47px;
+        font: normal bold 16px/20px "Montserrat";
+        margin-right: 47px;
     }
-    
+
     .security-button__discover:before {
-     height: 31px;
-     width: 31px;
-     margin-right: 12px;
+        height: 31px;
+        width: 31px;
+        margin-right: 12px;
     }
-    
+
     .security-button__order {
-     font: normal bold 16px/20px "Montserrat";
-     border: 3px solid #FFF;
-     height: 55.21px;
-     width: 220.84px;
+        font: normal bold 16px/20px "Montserrat";
+        border: 3px solid #FFF;
+        height: 55.21px;
+        width: 220.84px;
     }
-    
+
     .security-pictures {
-     background: url(../img/ModelS.png) no-repeat 50% 15%;
-     background-size: auto 20.5%;
-     position: relative;
-     grid-row: 1 / 2;
-     text-align: center;
+        background: url(../img/ModelS.png) no-repeat 50% 15%;
+        background-size: auto 20.5%;
+        position: relative;
+        grid-row: 1 / 2;
+        text-align: center;
     }
-    
+
     .car-frame {
-     background: url(../img/car-frame-mobile.png) no-repeat 50% 50%;
-     background-size: 97% auto;
-     max-width: 980px;
-     min-width: 750px;
-     position: relative;
-     top: 3%;
-     right: 2%;
+        background: url(../img/car-frame-mobile.png) no-repeat 50% 50%;
+        background-size: 97% auto;
+        max-width: 980px;
+        min-width: 750px;
+        position: relative;
+        top: 3%;
+        right: 2%;
     }
-    
+
     .footer {
-     display: none;
+        display: none;
     }
-   }
+}
 
 
-   @media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
     .container {
-     margin: 0;
+        margin: 0;
     }
-   
+
     .head {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 30px;
-     padding: 5px 20px 0 2px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 5px 20px 0 2px;
     }
-   
+
     .logo {
-     background: url(../img/Tesla-Wordmark-Red.png);
-     background-size: contain;
-     height: 42px;
-     width: 138px;
+        background: url(../img/Tesla-Wordmark-Red.png);
+        background-size: contain;
+        height: 42px;
+        width: 138px;
     }
-    
+
     .nav-menu,
     .side-menu__link {
-     display: none;
+        display: none;
     }
-    
+
     .side-menu {
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
-   
+
     .side-menu__burger {
-     height: 15px;
-     width: 24px;
+        height: 15px;
+        width: 24px;
     }
-    
+
     .title {
-     color: #000;
-     font: normal 600 50px/61px "Montserrat";
-     text-align: center;
-     height: 51px; 
-     margin: 0;
+        color: #000;
+        font: normal 600 50px/61px "Montserrat";
+        text-align: center;
+        height: 51px;
+        margin: 0;
     }
-   
-    .subtitle {		
-     color: #000;
-     font: normal 500 10px/12px "Montserrat";
-     text-align: center;
-     height: 10px;
+
+    .subtitle {
+        color: #000;
+        font: normal 500 10px/12px "Montserrat";
+        text-align: center;
+        height: 10px;
     }
-   
+
     .welcome-page__wordmark {
-     background: url(../img/Tesla-Wordmark.png) no-repeat center;
-     background-size: auto 81%;
-     text-align: center;
-     width: 100%;
-     position: relative;
-     bottom: 20px;
-     margin-bottom: 65px;
+        background: url(../img/Tesla-Wordmark.png) no-repeat center;
+        background-size: auto 81%;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+        margin-bottom: 65px;
     }
-   
+
     .welcome-page__tesla_png_img {
-     position: relative;
-     top: 70px;
-     width: 95%;
+        position: relative;
+        top: 70px;
+        width: 95%;
     }
-   
+
     .welcome-page-content {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
     }
-   
+
     .feature {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     margin-bottom: 43px;
-     margin-right: 0;
-     width: 88%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 43px;
+        margin-right: 0;
+        width: 88%;
     }
-    
+
     .params {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: auto;
-     margin-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        margin-right: 15px;
     }
-    
+
     .speedo-icon {
-     height: 29px;
-     width: 38px;
-     margin-right: 14px;
+        height: 29px;
+        width: 38px;
+        margin-right: 14px;
     }
-    
+
     .road_icon {
-     height: 41px;
-     width: 25px;
-     margin-right: 11px;
-     position: relative;
-     top: 0;
+        height: 41px;
+        width: 25px;
+        margin-right: 11px;
+        position: relative;
+        top: 0;
     }
-   
+
     .params-value {
-     padding-bottom: 0;
+        padding-bottom: 0;
     }
-    
+
     .params__time,
     .params__reserve {
-     font: normal 600 27px/33px "Montserrat";
-     margin: 0;
+        font: normal 600 27px/33px "Montserrat";
+        margin: 0;
     }
-    
+
     .params__time-units,
     .params__reserve-value {
-     font: normal 600 15px/18px "Montserrat";
-     position: relative;
-     left: 8px;
+        font: normal 600 15px/18px "Montserrat";
+        position: relative;
+        left: 8px;
     }
-   
+
     .params__distance,
     .params__title {
-     font: normal normal 10px/12px "Montserrat";
+        font: normal normal 10px/12px "Montserrat";
     }
-    
+
     .content-button {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     width: 87%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 87%;
     }
-    
+
     .test-drive {
-     font: normal bold 13px/16px "Montserrat";
-     background: none;
-     border: none;
-     color: #E51937;
-     text-transform: uppercase;
-     display: flex;
-     align-items: center;
-     margin-right: 0;
-     padding: 0;
+        font: normal bold 13px/16px "Montserrat";
+        background: none;
+        border: none;
+        color: #E51937;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        padding: 0;
     }
-    
+
     .test-drive:before {
-     content: "";
-     background: url(../img/test-drive-red.svg) no-repeat;
-     background-size: contain;
-     height: 22px;
-     width: 22px;
-     margin-right: 7px;
+        content: "";
+        background: url(../img/test-drive-red.svg) no-repeat;
+        background-size: contain;
+        height: 22px;
+        width: 22px;
+        margin-right: 7px;
     }
-    
+
     .welcome-page__order {
-     font: normal bold 13px/16px "Montserrat";
-     background: #E51937;
-     border: solid 2px #E51937;
-     box-sizing: border-box;
-     color: #FFF;
-     height: 40px;
-     width: 160px;
-     text-transform: uppercase;
-     padding: 0;
+        font: normal bold 13px/16px "Montserrat";
+        background: #E51937;
+        border: solid 2px #E51937;
+        box-sizing: border-box;
+        color: #FFF;
+        height: 40px;
+        width: 160px;
+        text-transform: uppercase;
+        padding: 0;
     }
-    
+
     .scroll-down-icon {
-      margin: 0 45% 26px;
-      height: 20px;
-      width: 34px;
-     }
-   
+        margin: 0 45% 26px;
+        height: 20px;
+        width: 34px;
+    }
+
     .advantages {
-     display: grid;
-     grid-template-columns: 100%;
-     grid-template-rows: 49% 51%;
-     min-height: 597px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 49% 51%;
+        min-height: 597px;
     }
-    
+
     .advantages-head {
-     background: url(../img/models-dashboar-ipad.png) no-repeat 50% 40%;
-     background-size: cover;
+        background: url(../img/models-dashboar-ipad.png) no-repeat 50% 40%;
+        background-size: cover;
     }
-    
+
     .advantages-head__title {
-     display: none;
+        display: none;
     }
-    
+
     .advantages-content {
-     display: block;
-     padding: 18px 30px 34px 28px;
+        display: block;
+        padding: 18px 30px 34px 28px;
     }
-    
+
     .advantages-info {
-     margin-bottom: 0;
-     margin-right: 0;
-     padding: 0;
-     display: block;
+        margin-bottom: 0;
+        margin-right: 0;
+        padding: 0;
+        display: block;
     }
-    
+
     .advantages-info__title {
-     font: normal 600 30px/37px "Montserrat";
-     margin: 0 0 10px;
+        font: normal 600 30px/37px "Montserrat";
+        margin: 0 0 10px;
     }
-   
+
     .advantages-info__text {
-     font: normal 500 15px/18px "Montserrat";
+        font: normal 500 15px/18px "Montserrat";
     }
-   
+
     .display,
     .wireless-soft,
     .bag-capacity,
     .advantages-buttons {
-     display: none;
+        display: none;
     }
-   
+
     .security {
-     display: grid;
-     grid-template-columns: 100%;
-     grid-template-rows: 47.5% 52.5%;
-     min-height: 620px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47.5% 52.5%;
+        min-height: 620px;
     }
-    
+
     .security-content {
-     background: #E51937;
-     padding: 17px 20px 0 31px;
-     grid-row: 2 / 3;
-     display: block;
+        background: #E51937;
+        padding: 17px 20px 0 31px;
+        grid-row: 2 / 3;
+        display: block;
     }
-    
+
     .security-info {
-     margin-bottom: 0;
-     padding: 0;
+        margin-bottom: 0;
+        padding: 0;
     }
-    
+
     .security-info__head {
-     font: normal 600 30px/37px "Montserrat";
-     margin: 0 0 12px;
-     padding-right: 0;
+        font: normal 600 30px/37px "Montserrat";
+        margin: 0 0 12px;
+        padding-right: 0;
     }
-    
+
     .security-info__text {
-     font: normal 500 15px/18px "Montserrat";
-     padding-right: 0;
+        font: normal 500 15px/18px "Montserrat";
+        padding-right: 0;
     }
-    
+
     .rating,
     .rating-result,
     .security-button {
-     display: none;
+        display: none;
     }
-    
-    .security-pictures {
-     background: url(../img/ModelS.png) no-repeat 50% 20%;
-     background-size: contain;
-     position: relative;
-     grid-row: 1 / 2;
-     text-align: center;
-    }
-    
-    .car-frame {
-     background: url(../img/car-frame-mobile.png) no-repeat 50% 50%;
-     background-size: 100% auto;
-     max-width: 500px;
-     min-width: 361px;
-     width: 100%; 
-     margin: 0 auto;
-     position: relative;
-     top: 5%;
-     right: 0;
-    }
-    
-    .footer {
-     display: none;
-    }
-   }
 
+    .security-pictures {
+        background: url(../img/ModelS.png) no-repeat 50% 20%;
+        background-size: contain;
+        position: relative;
+        grid-row: 1 / 2;
+        text-align: center;
+    }
+
+    .car-frame {
+        background: url(../img/car-frame-mobile.png) no-repeat 50% 50%;
+        background-size: 100% auto;
+        max-width: 500px;
+        min-width: 361px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 5%;
+        right: 0;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+
+@media (max-width: 374px) {
+    .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0 8px 0 0;
+    }
+
+    .logo {
+        background: url(../img/Tesla-Wordmark-Red.png) no-repeat;
+        background-size: contain;
+        max-height: 38px;
+        width: 134px;
+    }
+
+    .nav-menu,
+    .side-menu__link {
+        display: none;
+    }
+
+    .side-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .side-menu__burger {
+        max-height: 11px;
+        width: 20px;
+    }
+
+    .title {
+        color: #000;
+        font: normal 600 47px/58px "Montserrat";
+        text-align: center;
+        height: 46px;
+        margin: 0;
+    }
+
+    .subtitle {
+        color: #000;
+        font: normal 500 10px/12px "Montserrat";
+        text-align: center;
+        height: 8px;
+    }
+
+    .welcome-page__wordmark {
+        background: url(../img/Tesla-Wordmark.png) no-repeat center top;
+        background-size: auto 81%;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+        margin-bottom: 55px;
+    }
+
+    .welcome-page__tesla_png_img {
+        position: relative;
+        top: 42px;
+        width: 95%;
+    }
+
+    .welcome-page-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .feature {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 43px;
+        margin-right: 0;
+        width: 88%;
+    }
+
+    .params {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        margin-right: 15px;
+    }
+
+    .speedo-icon {
+        height: 27px;
+        width: 36px;
+        margin-right: 14px;
+    }
+
+    .road_icon {
+        height: 39px;
+        width: 23px;
+        margin-right: 11px;
+        position: relative;
+        top: 0;
+    }
+
+    .params-value {
+        padding-bottom: 0;
+    }
+
+    .params__time,
+    .params__reserve {
+        font: normal 600 27px/33px "Montserrat";
+        margin: 0;
+    }
+
+    .params__time-units,
+    .params__reserve-value {
+        font: normal 600 15px/18px "Montserrat";
+        position: relative;
+        left: 8px;
+    }
+
+    .params__distance,
+    .params__title {
+        font: normal normal 10px/12px "Montserrat";
+    }
+
+    .content-button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 93%;
+    }
+
+    .test-drive {
+        font: normal bold 12px/14px "Montserrat";
+        background: none;
+        border: none;
+        color: #E51937;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .test-drive:before {
+        content: "";
+        background: url(../img/test-drive-red.svg) no-repeat;
+        background-size: contain;
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .welcome-page__order {
+        font: normal bold 12px/14px "Montserrat";
+        background: #E51937;
+        border: solid 2px #E51937;
+        box-sizing: border-box;
+        color: #FFF;
+        height: 38px;
+        width: 156px;
+        text-transform: uppercase;
+        padding: 0;
+    }
+
+    .scroll-down-icon {
+        margin: 0 44%;
+        height: 20px;
+        width: 34px;
+    }
+
+    .advantages {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 49% 51%;
+        min-height: 480px;
+    }
+
+    .advantages-head {
+        background: url(../img/models-dashboar-ipad.png) no-repeat bottom center;
+        background-size: cover;
+    }
+
+    .advantages-head__title {
+        display: none;
+    }
+
+    .advantages-content {
+        padding: 16px 28px 32px 25px;
+    }
+
+    .advantages-info {
+        margin-bottom: 0;
+        margin-right: 0;
+        padding: 0;
+        display: block;
+    }
+
+    .advantages-info__title {
+        font: normal 600 23px/30px "Montserrat";
+        margin: 0 0 10px;
+    }
+
+    .advantages-info__text {
+        font: normal 500 13px/16px "Montserrat";
+    }
+
+    .display,
+    .wireless-soft,
+    .bag-capacity,
+    .advantages-buttons {
+        display: none;
+    }
+
+    .security {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47.5% 52.5%;
+        min-height: 480px;
+    }
+
+    .security-content {
+        background: #E51937;
+        padding: 17px 20px 0 31px;
+        grid-row: 2 / 3;
+        display: block;
+    }
+
+    .security-info {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .security-info__head {
+        font: normal 600 25px/32px "Montserrat";
+        margin: 0 0 12px;
+        padding-right: 0;
+    }
+
+    .security-info__text {
+        font: normal 500 13px/16px "Montserrat";
+        padding-right: 0;
+    }
+
+    .rating,
+    .rating-result,
+    .security-button {
+        display: none;
+    }
+
+    .security-pictures {
+        background: url(../img/ModelS.png) no-repeat 50% 20%;
+        background-size: contain;
+        position: relative;
+        grid-row: 1 / 2;
+        text-align: center;
+    }
+
+    .car-frame {
+        background: url(../img/car-frame-mobile.png) no-repeat 50% 50%;
+        background-size: 100% auto;
+        max-width: 360px;
+        min-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 5%;
+        right: 0;
+    }
+
+    .footer {
+        display: none;
+    }
+}
