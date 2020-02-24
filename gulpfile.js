@@ -76,11 +76,30 @@ gulp.task('js', function() {
 gulp.task('fonts', function () {
   return gulp.src('src/fonts/*.ttf')
     .pipe(fontmin({
-        text: 'text',
+      fontPath: '../fonts/'
     }))
+    
     .pipe(debug('fonts'))
     .pipe(gulp.dest('./public/fonts'));
 });
+
+
+
+gulp.task('concat-font-css', function() {
+  return gulp.src('./public/fonts/*.css')
+    .pipe(concat('fonts.scss'))
+    .pipe(debug('concat-font-css'))
+    .pipe(gulp.dest('./src/sass/base'));
+});
+
+gulp.task('del-css', function() {
+  return del('./public/fonts/*.css');
+});
+
+
+gulp.task('dev-fonts', gulp.series (
+  `fonts`, `concat-font-css`,  `del-css` 
+));
 
 gulp.task('image', function () {
   return gulp.src(['./src/img/*.png', './src/img/*.svg', './src/img/*.jpg'])
@@ -113,12 +132,12 @@ gulp.task('lib', function copy() {
 
 gulp.task('relation', gulp.series (
   `clean`,
-  gulp.parallel( 'html', `sass`, `js`, 'fonts' , 'image', 'sprite' ,'lib')
+  gulp.parallel( 'html', `sass`, `js`, 'dev-fonts' , 'image', 'sprite' ,'lib')
 ));
 
 gulp.task('relation+pug', gulp.series (
   `clean`,
-  gulp.parallel( 'pug', `sass`, `js`, 'fonts' , 'image', 'sprite' ,'lib')
+  gulp.parallel( 'pug', `sass`, `js`, 'dev-fonts' , 'image', 'sprite' ,'lib')
 ));
 
 
@@ -130,7 +149,7 @@ gulp.task('watch', function () {
   gulp.watch(`./src/modules/*.pug`, gulp.series(`pug`))
   gulp.watch(`./src/sass/**/*.sass`, gulp.series(`sass`))
   gulp.watch(`./src/js/**/*.js`, gulp.series(`js`))
-  gulp.watch(`./src/fonts/**/*.ttf`, gulp.series(`fonts`)) 
+  gulp.watch(`./src/fonts/**/*.ttf`, gulp.series(`dev-fonts`)) 
   gulp.watch(`./src/img/*`, gulp.series(`image`)) 
   gulp.watch(`./src/img/sprite/*`, gulp.series(`sprite`)) 
   gulp.watch(`./src/lib/*`, gulp.series(`lib`)) 
@@ -222,14 +241,26 @@ gulp.task('compress-js', function() {
     .pipe(gulp.dest('./build/js'));
 });
 
-gulp.task('build-fonts', function () {
+gulp.task('build-ttf-fonts', function () {
   return gulp.src('src/fonts/*.ttf')
     .pipe(fontmin({
-        text: 'text',
+      fontPath: '../fonts/'
     }))
-    .pipe(debug({title: 'build-fonts'}))
+    
+    .pipe(debug({title: 'build-ttf-fonts'}))
     .pipe(gulp.dest('./build/fonts'));
 });
+
+
+
+gulp.task('build-del-css', function() {
+  return del('./build/fonts/*.css');
+});
+
+
+gulp.task('build-fonts', gulp.series (
+  `build-ttf-fonts`,   `build-del-css` 
+));
 
 gulp.task('build-clean', function () {
   return del('./build')
