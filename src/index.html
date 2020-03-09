@@ -12,17 +12,30 @@
 <body>
     <header class="head">
         <div class="logo"></div>
-        <nav class="nav-menu">
-            <a class="nav-menu__link nav-menu__link-active" href="index.html">Model S</a>
-            <a class="nav-menu__link" href="ModelX.html">Model X</a>
-            <a class="nav-menu__link" href="Model3.html">Model 3</a>
-            <a class="nav-menu__link" href="Roadster.html">Roadster</a>
-            <a class="nav-menu__link" href="Energy.html">Energy</a>
+        <nav class="nav-menu nav-menu_desktop">
+            <a class="nav-menu__link  nav-menu__link_desktop nav-menu__link-active" href="index.html">Model S</a>
+            <a class="nav-menu__link nav-menu__link_desktop" href="ModelX.html">Model X</a>
+            <a class="nav-menu__link nav-menu__link_desktop" href="Model3.html">Model 3</a>
+            <a class="nav-menu__link nav-menu__link_desktop" href="Roadster.html">Roadster</a>
+            <a class="nav-menu__link nav-menu__link_desktop" href="Energy.html">Energy</a>
         </nav>
         <nav class="side-menu">
             <a class="side-menu__link" href="Shop.html">Магазин</a>
             <a class="side-menu__link" href="Authorization.html">Войти</a>
-            <img class="side-menu__burger" src="./img/burger-icon.svg">
+            <div id="nav" class="navigation">
+                <div class="navigation__inner">
+                    <nav class="nav-menu nav-menu_mobile">
+                        <a class="nav-menu__link nav-menu__link_mobile nav-menu__link-active" href="index.html">Model S</a>
+                        <a class="nav-menu__link nav-menu__link_mobile" href="ModelX.html">Model X</a>
+                        <a class="nav-menu__link nav-menu__link_mobile" href="Model3.html">Model 3</a>
+                        <a class="nav-menu__link nav-menu__link_mobile" href="Roadster.html">Roadster</a>
+                        <a class="nav-menu__link nav-menu__link_mobile" href="Energy.html">Energy</a>
+                        <a class="nav-menu__link nav-menu__link_mobile" href="Shop.html">Магазин</a>
+                        <a class="nav-menu__link nav-menu__link_mobile" href="Authorization.html">Войти</a>
+                    </nav>
+                </div>
+            </div>
+            <div  class="menu-icon" id="show"></div>
         </nav>
     </header>
 
@@ -177,5 +190,6 @@
             </footer>
         </section>
     </section>
+    <script src="./js/script.js"></script>
 </body>
 </html>

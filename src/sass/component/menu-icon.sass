@@ -1,0 +1,50 @@
+//  9.menu-icon
+ 
+.menu-icon 
+    display: none
+    position: relative
+    width: 30px
+    height: 5px
+    background-color: $red
+    cursor: pointer
+    outline: none
+    z-index: 100
+  
+    &::before 
+        position: absolute
+        left: 0
+        top: -10px
+        content: ''
+        width: 30px
+        height: 5px
+        background-color: $red
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  
+  
+  
+    &::after 
+        position: absolute
+        left: 0
+        top: 10px
+        content: ''
+        width: 30px
+        height: 5px
+        background-color: $red
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  
+
+    &-active 
+        background-color: transparent
+  
+  
+        &::before 
+            transform: rotate(45deg)
+            top: 0
+            transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  
+  
+        &::after 
+            transform: rotate(-45deg)
+            top: 0
+            transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+

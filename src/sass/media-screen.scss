@@ -1,8 +1,13 @@
-//  9.media-screen
+//  end.media-screen
 
 
 
 @media (min-width: 1025px) and (max-width: 1353px) {
+    
+    
+    .menu-icon {
+        display: none;
+    }
     .advantages-buttons {
         display: flex;
         flex-direction: column;
@@ -86,8 +91,10 @@
         height: 51px;
         width: 166px;
     }
-
-    .nav-menu,
+    .menu-icon {
+        display: flex;
+    }
+    .nav-menu_desktop,    
     .side-menu__link {
         display: none;
     }
@@ -474,11 +481,13 @@
         width: 138px;
     }
 
-    .nav-menu,
+    .menu-icon {
+        display: flex;
+    }
+    .nav-menu_desktop,    
     .side-menu__link {
         display: none;
     }
-
     .side-menu {
         display: flex;
         justify-content: flex-end;
@@ -750,7 +759,10 @@
         width: 134px;
     }
 
-    .nav-menu,
+    .menu-icon {
+        display: flex;
+    }
+    .nav-menu_desktop,    
     .side-menu__link {
         display: none;
     }
