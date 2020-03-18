@@ -18,10 +18,11 @@
 
 .nav-menu 
     font: normal 600 15px "Montserrat"
-    display: flex
+    display: none
     align-items: center
 
     &_desktop
+        display: flex
         width: 489px
         justify-content: space-between
     
@@ -30,6 +31,9 @@
         height: 100%
         flex-direction: column
         justify-content: center
+
+        &_active
+            display: flex   
 
 
 
@@ -95,3 +99,5 @@
             position: absolute
             left: 0
             top: 25px
+
+
