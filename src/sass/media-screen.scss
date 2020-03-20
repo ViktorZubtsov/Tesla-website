@@ -1,4 +1,4 @@
-//  end.media-screen
+//  12.media-screen
 
 
 
@@ -6,6 +6,9 @@
     
     
     .menu-icon {
+        display: none;
+    }
+    .navigation_active {
         display: none;
     }
     .advantages-buttons {
@@ -92,6 +95,9 @@
         width: 166px;
     }
     .menu-icon {
+        display: flex;
+    }
+    .navigation_active {
         display: flex;
     }
     .nav-menu_desktop,    
@@ -484,6 +490,9 @@
     .menu-icon {
         display: flex;
     }
+    .navigation_active {
+        display: flex;
+    }
     .nav-menu_desktop,    
     .side-menu__link {
         display: none;
@@ -760,6 +769,9 @@
     }
 
     .menu-icon {
+        display: flex;
+    }
+    .navigation_active {
         display: flex;
     }
     .nav-menu_desktop,    
